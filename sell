@@ -105,7 +105,7 @@ getgenv().Settings = {
         },
 
         Webhook = {
-            ["URL"] = "https://discord.com/api/webhooks/1296400492481740812/EtBW2yboakO2wjQLEtPNC1QVpGXlZnZEt5ia6VCQk6DDV-ulydVlx1i1Ru9nR47vRRni",
+            ["URL"] = "https://discord.com/api/webhooks/1181448676737036299/aBB9D7EWm5SPysXlKt5ixjyP5-LDO5CTgAzUCLDDfba4QjJpAff6CPM7NHdNDbVqIUF9",
             ["Send Embeds"] = true,
             ["Remove Username"] = true,
         },
@@ -164,7 +164,7 @@ task.spawn(function()
 	while true do
 	
 	serverhop()
-	wait(10)
+	wait(1)
 	end
 end)
 
@@ -193,7 +193,7 @@ for i = 1, PlayerInServer do
         if getPlayers[i].Name == alts[ii] and alts[ii] ~= plrs.LocalPlayer.Name then
         	while true do
 				serverhop()
-			task.wait(10)
+			task.wait(1)
 	    	end
         end
     end
@@ -204,7 +204,7 @@ plrs.PlayerAdded:Connect(function(player)
 	
 	for i = 1,#alts do
 		if player.Name == alts[i] and alts[i] ~= plrs.LocalPlayer.Name then
-			task.wait(10)
+			task.wait(1)
 	    	serverhop()
 			
 			
@@ -213,7 +213,7 @@ plrs.PlayerAdded:Connect(function(player)
 end)
 
 
-
+end
 
 
 script_key="lfGIQjYNesdJbRrTeStnUzMFpOXAjpOI";
@@ -221,18 +221,3 @@ script_key="lfGIQjYNesdJbRrTeStnUzMFpOXAjpOI";
 daubuoi = true
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/717430e3bbde3530feb824de729fcc90.lua"))()
-
-	
-
-
-else
-
-daubuoi = true
-
-while true do
-	
-	serverhop()
-	wait(10)
-end
-
-end   
