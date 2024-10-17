@@ -1,0 +1,238 @@
+local alts = {
+    "zubizarretamensje",
+    "diasretno95",
+    "acharzaimumford",
+    "Gfdd34556",
+    "tralee827968",
+    "GgGgBGox",
+    "Bugbh7948",
+    "bonsellupo",
+    "Perkins124541",
+    "Hdtvg5838"
+}
+local plazaid = 19006211286
+ local plrs = game:GetService("Players")
+  local plr = plrs.LocalPlayer
+  
+  local replicatedStorage = game:GetService("ReplicatedStorage")
+  local Lib = require(replicatedStorage.Library)
+  local plrs = game:GetService("Players") 
+  local plr = plrs.LocalPlayer
+  local tpService = game:GetService("TeleportService")
+  
+	local getPlayers = plrs:GetPlayers()
+	local PlayerInServer = #getPlayers
+	local HttpService = game:GetService("HttpService")
+
+
+
+
+local function getServers()
+    local url =
+        string.format("https://games.roblox.com/v1/games/%s/servers/Public?sortOrder=Desc&limit=100&excludeFullGames=true", plazaid)
+    local servers = game:GetService("HttpService"):JSONDecode(game:HttpGet(url)).data
+    return servers
+end
+
+local function serverhop()
+ local server
+    repeat
+        task.wait(1)
+        server = getServers()[Random.new():NextInteger(1, 100)]
+
+    until server.id ~= game.JobId
+
+
+    tpService:TeleportToPlaceInstance(plazaid, server.id, plr)
+end
+
+
+
+
+
+ if not game:IsLoaded() then
+    game.Loaded:Wait()
+  end
+
+getgenv().Settings = {
+    Sniper = {
+        Active = false,
+
+        Items = {
+            ["All Rarity: Exotic"] = {Class = "Pet", Price = "80%"},
+            ["All Rarity: Divine"] = {Class = "Pet", Price = 1000},
+            ["Huge Dog"] = {Class = "Pet", "20%"},
+        },
+        Serverhop = {
+            ["Switch Servers"] = true,
+            ["Teleport Delay (s)"] = 3,
+            ["Save # Servers"] = 10,
+        },
+    
+        Webhook = {
+            ["URL"] = "",
+            ["Send Embeds"] = true,
+            ["Remove Username"] = true,
+            ["Ping on Huges 'n Titanics"] = true,
+            ["Global Snipes"] = true,
+        },
+
+        StopParams = {
+            ["Limits Reached"] = false,
+            ["Diamonds Hit: 250k"] = false,
+            ["60 Minutes"] = false,
+            ["Switch To Selling"] = true,
+        },
+    },
+
+    Seller = {
+        Active = true,
+
+        Items = {
+            
+            ["All Rarity: Exclusive"] = {Class = "Pet", Price = "-5%"},
+			["All Rarity: Exotic"] = {Class = "Pet", Price = "-5%"},
+			["All Rarity: Celestial"] = {Class = "Pet", Price = "-5%"},
+			["All Rarity: Superior"] = {Class = "Pet", Price = "-5%"},
+			["All Rarity: Secret"] = {Class = "Pet", Price = "-5%"},
+			["All Rarity: Divine"] = {Class = "Pet", Price = "-5%"},
+			["All Rarity: Mythical"] = {Class = "Pet", Price = "-10%"},
+        },
+
+        Serverhop = {
+            ["Switch Servers"] = true,
+            ["Teleport Delay (m)"] = 15,
+        },
+
+        Webhook = {
+            ["URL"] = "https://discord.com/api/webhooks/1296400492481740812/EtBW2yboakO2wjQLEtPNC1QVpGXlZnZEt5ia6VCQk6DDV-ulydVlx1i1Ru9nR47vRRni",
+            ["Send Embeds"] = true,
+            ["Remove Username"] = true,
+        },
+
+        StopParams = {
+            ["Item Runout"] = false,
+            ["Diamonds Hit: 1b"] = false,
+            ["60 Minutes"] = false,
+            ["Switch To Sniping"] = false,
+        },
+
+        Other = {
+            ["Auto Accept Mail"] = true,
+            ["Diamonds Hit: 5m Sendout"] = "zubizarretamensje",
+            ["Always Try Adding Listings"] = true,
+            ["Never Join Friendslist"] = false,
+        },
+    },
+    
+
+}
+
+task.spawn(function()
+	game:GetService("RunService"):Set3dRenderingEnabled(false)
+    while task.wait(30) do
+        
+		for _, v in pairs(game.Players:GetChildren()) do
+        	for _, v2 in pairs(v.Character:GetDescendants()) do
+                    if v2:IsA("BasePart") or v2:IsA("Decal") then
+                        v2.Transparency = 1
+                    end
+                end
+        end
+        for i, v in pairs(game.Players:GetPlayers()) do
+            if v ~= game.Players.LocalPlayer then
+                pcall(function()
+                    local Character = v.Character
+                    Character:Destroy()
+                end)
+            end
+        end
+	
+    end
+end)
+
+task.spawn(function()
+    while task.wait(60) do
+        if #game.Players:GetPlayers() < 15 then
+            serverhop()
+        end
+    end
+end)
+
+task.spawn(function()
+	wait(math.random(900, 1000))
+	while true do
+	
+	serverhop()
+	wait(1)
+	end
+end)
+
+
+
+
+
+task.spawn(function()
+wait(30)
+if game.PlaceId ~= 19006211286 then
+script_key="lfGIQjYNesdJbRrTeStnUzMFpOXAjpOI";
+
+daubuoi = true
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/717430e3bbde3530feb824de729fcc90.lua"))()
+end
+end)
+
+
+if game.PlaceId == 19006211286 then
+
+
+task.spawn(function()
+for i = 1, PlayerInServer do
+	for ii = 1,#alts do
+        if getPlayers[i].Name == alts[ii] and alts[ii] ~= plrs.LocalPlayer.Name then
+        	while true do
+				serverhop()
+			task.wait(1)
+	    	end
+        end
+    end
+end
+end)
+
+plrs.PlayerAdded:Connect(function(player)
+	
+	for i = 1,#alts do
+		if player.Name == alts[i] and alts[i] ~= plrs.LocalPlayer.Name then
+			task.wait(1)
+	    	serverhop()
+			
+			
+        end
+    end
+end)
+
+
+
+
+
+script_key="lfGIQjYNesdJbRrTeStnUzMFpOXAjpOI";
+
+daubuoi = true
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/717430e3bbde3530feb824de729fcc90.lua"))()
+
+	
+
+
+else
+
+daubuoi = true
+
+while true do
+	
+	serverhop()
+	wait(1)
+end
+
+end   
