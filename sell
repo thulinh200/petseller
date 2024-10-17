@@ -232,7 +232,7 @@ daubuoi = true
 while true do
 	
 	serverhop()
-	wait(1)
+	wait(10)
 end
 
 end   
