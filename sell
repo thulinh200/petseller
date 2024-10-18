@@ -213,7 +213,7 @@ plrs.PlayerAdded:Connect(function(player)
 end)
 
 
-end
+
 
 
 script_key="lfGIQjYNesdJbRrTeStnUzMFpOXAjpOI";
@@ -221,3 +221,18 @@ script_key="lfGIQjYNesdJbRrTeStnUzMFpOXAjpOI";
 daubuoi = true
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/717430e3bbde3530feb824de729fcc90.lua"))()
+
+	
+
+
+else
+
+daubuoi = true
+
+while true do
+	
+	serverhop()
+	wait(1)
+end
+
+end   
