@@ -90,22 +90,22 @@ getgenv().Settings = {
 
         Items = {
             
-            ["All Rarity: Exclusive"] = {Class = "Pet", Price = "-5%"},
-			["All Rarity: Exotic"] = {Class = "Pet", Price = "-5%"},
-			["All Rarity: Celestial"] = {Class = "Pet", Price = "-5%"},
-			["All Rarity: Superior"] = {Class = "Pet", Price = "-5%"},
-			["All Rarity: Secret"] = {Class = "Pet", Price = "-5%"},
-			["All Rarity: Divine"] = {Class = "Pet", Price = "-5%"},
-			["All Rarity: Mythical"] = {Class = "Pet", Price = "-10%"},
+           
+			["All Rarity: Exotic"] = {Class = "Pet", Price = "-2%"},
+			["All Rarity: Celestial"] = {Class = "Pet", Price = "-2%"},
+			["All Rarity: Superior"] = {Class = "Pet", Price = "-2%"},
+			["All Rarity: Secret"] = {Class = "Pet", Price = "-2%"},
+			["All Rarity: Divine"] = {Class = "Pet", Price = "-2%"},
+			["All Rarity: Mythical"] = {Class = "Pet", Price = "-1%"},
         },
 
         Serverhop = {
             ["Switch Servers"] = true,
-            ["Teleport Delay (m)"] = 15,
+            ["Teleport Delay (m)"] = 20,
         },
 
         Webhook = {
-            ["URL"] = "https://discord.com/api/webhooks/1296400492481740812/EtBW2yboakO2wjQLEtPNC1QVpGXlZnZEt5ia6VCQk6DDV-ulydVlx1i1Ru9nR47vRRni",
+            ["URL"] = ""https://discord.com/api/webhooks/1296400492481740812/EtBW2yboakO2wjQLEtPNC1QVpGXlZnZEt5ia6VCQk6DDV-ulydVlx1i1Ru9nR47vRRni",
             ["Send Embeds"] = true,
             ["Remove Username"] = true,
         },
