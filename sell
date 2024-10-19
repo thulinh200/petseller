@@ -91,12 +91,12 @@ getgenv().Settings = {
         Items = {
             
            
-			["All Rarity: Exotic"] = {Class = "Pet", Price = "-2%"},
-			["All Rarity: Celestial"] = {Class = "Pet", Price = "-2%"},
-			["All Rarity: Superior"] = {Class = "Pet", Price = "-2%"},
-			["All Rarity: Secret"] = {Class = "Pet", Price = "-2%"},
-			["All Rarity: Divine"] = {Class = "Pet", Price = "-2%"},
-			["All Rarity: Mythical"] = {Class = "Pet", Price = "-1%"},
+			["All Rarity: Exotic"] = {Class = "Pet", Price = "20%"},
+			["All Rarity: Celestial"] = {Class = "Pet", Price = "20%"},
+			["All Rarity: Superior"] = {Class = "Pet", Price = "20%"},
+			["All Rarity: Secret"] = {Class = "Pet", Price = "20%"},
+			["All Rarity: Divine"] = {Class = "Pet", Price = "20%"},
+			["All Rarity: Mythical"] = {Class = "Pet", Price = "50%"},
         },
 
         Serverhop = {
@@ -119,7 +119,7 @@ getgenv().Settings = {
 
         Other = {
             ["Auto Accept Mail"] = true,
-            ["Diamonds Hit: 1m Sendout"] = "zubizarretamensje",
+            ["Diamonds Hit: 1m Sendout"] = "huynguyen3309",
             ["Always Try Adding Listings"] = true,
             ["Never Join Friendslist"] = false,
         },
@@ -235,4 +235,4 @@ while true do
 	wait(1)
 end
 
-end
+end   
