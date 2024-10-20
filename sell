@@ -8,7 +8,17 @@ local alts = {
     "Bugbh7948",
     "bonsellupo",
     "Perkins124541",
-    "Hdtvg5838"
+    "Hdtvg5838",
+    "kethemhanh3",
+    "johnwhichh5",
+    "johnwhichh4",
+    "johnwhichh6",
+    "johnwhichh7",
+    "johnwhichh8",
+    "johnwhichh12",
+    "johnwhichh11",
+    "johnwhichh13",
+    "johnwhichh10"
 }
 local plazaid = 19006211286
  local plrs = game:GetService("Players")
@@ -119,7 +129,7 @@ getgenv().Settings = {
 
         Other = {
             ["Auto Accept Mail"] = true,
-            ["Diamonds Hit: 1m Sendout"] = "huynguyen3309",
+            ["Diamonds Hit: 1m Sendout"] = "donwhich1",
             ["Always Try Adding Listings"] = true,
             ["Never Join Friendslist"] = false,
         },
