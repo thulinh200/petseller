@@ -1,13 +1,13 @@
 local alts = {
-    "zubizarretamensje",
-    "diasretno95",
-    "acharzaimumford",
-    "Gfdd34556",
-    "tralee827968",
-    "GgGgBGox",
-    "Bugbh7948",
-    "bonsellupo",
-    "Perkins124541",
+	"earlbatman56",
+    "823545woldemar",
+    "dsfgsde4",
+    "gietzhfy400",
+    "daucatmoi1236549",
+    "barbaraand692",
+    "MiaHarris54",
+    "ertwsafcrt",
+    "kermieiacobus86",
     "Hdtvg5838",
     "kethemhanh3",
     "johnwhichh5",
@@ -99,13 +99,12 @@ getgenv().Settings = {
         Active = true,
 
         Items = {
-            
-           
-			["All Rarity: Exotic"] = {Class = "Pet", Price = "-2%"},
-			["All Rarity: Celestial"] = {Class = "Pet", Price = "-2%"},
-			["All Rarity: Superior"] = {Class = "Pet", Price = "-2%"},
-			["All Rarity: Secret"] = {Class = "Pet", Price = "-2%"},
-			["All Rarity: Divine"] = {Class = "Pet", Price = "-2%"},
+            		["All Rarity: Secret"] = {Class = "Pet", Price = "30%"},
+           		["All Rarity: Exclusive"] = {Class = "Pet", Price = "30%"},
+			["All Rarity: Exotic"] = {Class = "Pet", Price = "3%"},
+			["All Rarity: Celestial"] = {Class = "Pet", Price = "3%"},
+			["All Rarity: Superior"] = {Class = "Pet", Price = "3%"},
+			["All Rarity: Divine"] = {Class = "Pet", Price = "3%"},
 			["All Rarity: Mythical"] = {Class = "Pet", Price = "5%"},
         },
 
@@ -115,7 +114,7 @@ getgenv().Settings = {
         },
 
         Webhook = {
-            ["URL"] = "https://discord.com/api/webhooks/1296400492481740812/EtBW2yboakO2wjQLEtPNC1QVpGXlZnZEt5ia6VCQk6DDV-ulydVlx1i1Ru9nR47vRRni",
+            ["URL"] = "https://discord.com/api/webhooks/1181448676737036299/aBB9D7EWm5SPysXlKt5ixjyP5-LDO5CTgAzUCLDDfba4QjJpAff6CPM7NHdNDbVqIUF9",
             ["Send Embeds"] = true,
             ["Remove Username"] = true,
         },
@@ -129,7 +128,7 @@ getgenv().Settings = {
 
         Other = {
             ["Auto Accept Mail"] = true,
-            ["Diamonds Hit: 3m Sendout"] = "huynguyen3309",
+            ["Diamonds Hit: 5m Sendout"] = "Perkins124541",
             ["Always Try Adding Listings"] = true,
             ["Never Join Friendslist"] = false,
         },
@@ -185,7 +184,7 @@ end)
 task.spawn(function()
 wait(30)
 if game.PlaceId ~= 19006211286 then
-script_key="lfGIQjYNesdJbRrTeStnUzMFpOXAjpOI";
+script_key="WokEpGCUtggwkUXTihDkgVQOeegshlHs";
 
 daubuoi = true
 
@@ -226,7 +225,7 @@ end)
 
 
 
-script_key="lfGIQjYNesdJbRrTeStnUzMFpOXAjpOI";
+script_key="WokEpGCUtggwkUXTihDkgVQOeegshlHs";
 
 daubuoi = true
 
