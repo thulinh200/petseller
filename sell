@@ -57,6 +57,14 @@ local function serverhop()
 end
 
 
+task.spawn(function()
+	wait(math.random(900, 1000))
+	while true do
+	
+	serverhop()
+	wait(1)
+	end
+end)
 
 
 
@@ -100,12 +108,12 @@ getgenv().Settings = {
 
         Items = {
             		["All Rarity: Secret"] = {Class = "Pet", Price = "30%"},
-           		["All Rarity: Exclusive"] = {Class = "Pet", Price = "30%"},
-			["All Rarity: Exotic"] = {Class = "Pet", Price = "3%"},
-			["All Rarity: Celestial"] = {Class = "Pet", Price = "3%"},
-			["All Rarity: Superior"] = {Class = "Pet", Price = "3%"},
-			["All Rarity: Divine"] = {Class = "Pet", Price = "3%"},
-			["All Rarity: Mythical"] = {Class = "Pet", Price = "5%"},
+           		["All Rarity: Exclusive"] = {Class = "Pet", Price = "100%"},
+			["All Rarity: Exotic"] = {Class = "Pet", Price = "4%"},
+			["All Rarity: Celestial"] = {Class = "Pet", Price = "4%"},
+			["All Rarity: Superior"] = {Class = "Pet", Price = "4%"},
+			["All Rarity: Divine"] = {Class = "Pet", Price = "4%"},
+			["All Rarity: Mythical"] = {Class = "Pet", Price = "10%"},
         },
 
         Serverhop = {
@@ -168,14 +176,6 @@ task.spawn(function()
     end
 end)
 
-task.spawn(function()
-	wait(math.random(900, 1000))
-	while true do
-	
-	serverhop()
-	wait(1)
-	end
-end)
 
 
 
