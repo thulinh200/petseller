@@ -109,10 +109,10 @@ getgenv().Settings = {
         Items = {
             		["All Rarity: Secret"] = {Class = "Pet", Price = "30%"},
            		["All Rarity: Exclusive"] = {Class = "Pet", Price = "100%"},
-			["All Rarity: Exotic"] = {Class = "Pet", Price = "4%"},
-			["All Rarity: Celestial"] = {Class = "Pet", Price = "4%"},
-			["All Rarity: Superior"] = {Class = "Pet", Price = "4%"},
-			["All Rarity: Divine"] = {Class = "Pet", Price = "4%"},
+			["All Rarity: Exotic"] = {Class = "Pet", Price = "5%"},
+			["All Rarity: Celestial"] = {Class = "Pet", Price = "5%"},
+			["All Rarity: Superior"] = {Class = "Pet", Price = "5%"},
+			["All Rarity: Divine"] = {Class = "Pet", Price = "5%"},
 			["All Rarity: Mythical"] = {Class = "Pet", Price = "10%"},
         },
 
@@ -136,7 +136,7 @@ getgenv().Settings = {
 
         Other = {
             ["Auto Accept Mail"] = true,
-            ["Diamonds Hit: 5m Sendout"] = "Perkins124541",
+            ["Diamonds Hit: 5m Sendout"] = "donwhich1",
             ["Always Try Adding Listings"] = true,
             ["Never Join Friendslist"] = false,
         },
