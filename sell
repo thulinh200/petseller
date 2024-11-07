@@ -107,7 +107,7 @@ getgenv().Settings = {
         Active = true,
 
         Items = {
-			["Instant Luck Potion 4"] = {Class = "Consumable", Price = "5%"},
+			["Instant Luck Potion 4"] = {Class = "Consumable", Price = "2%"},
             		["All Rarity: Secret"] = {Class = "Pet", Price = "5%"},
            		["All Rarity: Exclusive"] = {Class = "Pet", Price = "6%"},
 			["All Rarity: Exotic"] = {Class = "Pet", Price = "4%"},
