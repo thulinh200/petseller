@@ -107,9 +107,14 @@ getgenv().Settings = {
         Active = true,
 
         Items = {
-			["Instant Luck Potion 4"] = {Class = "Consumable", Price = "2%"},
-            		["All Rarity: Secret"] = {Class = "Pet", Price = "5%"},
-           		["All Rarity: Exclusive"] = {Class = "Pet", Price = "6%"},
+			["Crystal Key"] = {Class = "Consumable", Price = "5%"},
+			["Crystal Key"] = {Class = "Misc", Price = "5%"},
+			["Exclusive Treasure Chest"] = {Class = "Consumable", Price = "5%"},
+			["Exclusive Treasure Chest"] = {Class = "Misc", Price = "5%"},
+			["Exclusive Fishing Bait"] = {Class = "Consumable", Price = "5%"},
+			["Instant Luck Potion 4"] = {Class = "Consumable", Price = "15%"},
+            		["All Rarity: Secret"] = {Class = "Pet", Price = "15%"},
+           		["All Rarity: Exclusive"] = {Class = "Pet", Price = "20%"},
 			["All Rarity: Exotic"] = {Class = "Pet", Price = "4%"},
 			["All Rarity: Celestial"] = {Class = "Pet", Price = "3%"},
 			["All Rarity: Superior"] = {Class = "Pet", Price = "3%"},
