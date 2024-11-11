@@ -122,16 +122,14 @@ getgenv().Settings = {
     Seller = {
         Active = true,
 
-        Items = {
-			["Crystal Key"] = {Class = "Consumable", Price = "2%"},
-			["Crystal Key"] = {Class = "Misc", Price = "2%"},
-			["Exclusive Treasure Chest"] = {Class = "Consumable", Price = "2%"},
-			["Exclusive Treasure Chest"] = {Class = "Misc", Price = "2%"},
+        Items = {	
+			["Crystal Key"] = {Class = "Misc", Price = "5%"},
+			["Exclusive Treasure Chest"] = {Class = "Lootbox", Price = "5%"},
 			["Exclusive Fishing Bait"] = {Class = "Consumable", Price = "5%"},
 			["God Potion"] = {Class = "Consumable", Price = "10%"},
 			["Instant Luck Potion 4"] = {Class = "Consumable", Price = "15%"},
-            		["All Rarity: Secret"] = {Class = "Pet", Price = "15%"},
-           		["All Rarity: Exclusive"] = {Class = "Pet", Price = "20%"},
+            		["All Rarity: Secret"] = {Class = "Pet", Price = "10%"},
+           		["All Rarity: Exclusive"] = {Class = "Pet", Price = "15%"},
 			["All Rarity: Exotic"] = {Class = "Pet", Price = "4%"},
 			["All Rarity: Celestial"] = {Class = "Pet", Price = "3%"},
 			["All Rarity: Superior"] = {Class = "Pet", Price = "3%"},
@@ -159,7 +157,7 @@ getgenv().Settings = {
 
         Other = {
             ["Auto Accept Mail"] = true,
-            ["Diamonds Hit: 10m Sendout"] = "vlgqloganogan2093",
+            ["Diamonds Hit: 10m Sendout"] = "donwhich1",
             ["Always Try Adding Listings"] = true,
             ["Never Join Friendslist"] = false,
         },
@@ -168,28 +166,9 @@ getgenv().Settings = {
 
 }
 
-task.spawn(function()
+
 	game:GetService("RunService"):Set3dRenderingEnabled(false)
-    while task.wait(30) do
-        
-		for _, v in pairs(game.Players:GetChildren()) do
-        	for _, v2 in pairs(v.Character:GetDescendants()) do
-                    if v2:IsA("BasePart") or v2:IsA("Decal") then
-                        v2.Transparency = 1
-                    end
-                end
-        end
-        for i, v in pairs(game.Players:GetPlayers()) do
-            if v ~= game.Players.LocalPlayer then
-                pcall(function()
-                    local Character = v.Character
-                    Character:Destroy()
-                end)
-            end
-        end
-	
-    end
-end)
+
 
 task.spawn(function()
     while task.wait(60) do
@@ -207,7 +186,7 @@ end)
 task.spawn(function()
 wait(30)
 if game.PlaceId ~= 19006211286 then
-script_key="lfGIQjYNesdJbRrTeStnUzMFpOXAjpOI";
+script_key="WokEpGCUtggwkUXTihDkgVQOeegshlHs";
 
 daubuoi = true
 
@@ -248,7 +227,7 @@ end)
 
 
 
-script_key="lfGIQjYNesdJbRrTeStnUzMFpOXAjpOI";
+script_key="WokEpGCUtggwkUXTihDkgVQOeegshlHs";
 
 daubuoi = true
 
@@ -266,5 +245,3 @@ while true do
 	serverhop()
 	wait(1)
 end
-
-end   
