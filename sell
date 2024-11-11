@@ -186,7 +186,7 @@ end)
 task.spawn(function()
 wait(30)
 if game.PlaceId ~= 19006211286 then
-script_key="WokEpGCUtggwkUXTihDkgVQOeegshlHs";
+script_key="lfGIQjYNesdJbRrTeStnUzMFpOXAjpOI";
 
 daubuoi = true
 
@@ -227,7 +227,7 @@ end)
 
 
 
-script_key="WokEpGCUtggwkUXTihDkgVQOeegshlHs";
+script_key="lfGIQjYNesdJbRrTeStnUzMFpOXAjpOI";
 
 daubuoi = true
 
@@ -245,3 +245,5 @@ while true do
 	serverhop()
 	wait(1)
 end
+
+end   
