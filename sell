@@ -136,6 +136,107 @@ getgenv().Settings = {
 			["All Rarity: Superior"] = {Class = "Pet", Price = "3%"},
 			["All Rarity: Divine"] = {Class = "Pet", Price = "3%"},
 			["All Rarity: Mythical"] = {Class = "Pet", Price = "3%"},
+}
+local plazaid = 19006211286
+ local plrs = game:GetService("Players")
+  local plr = plrs.LocalPlayer
+  
+  local replicatedStorage = game:GetService("ReplicatedStorage")
+  local Lib = require(replicatedStorage.Library)
+  local plrs = game:GetService("Players") 
+  local plr = plrs.LocalPlayer
+  local tpService = game:GetService("TeleportService")
+  
+	local getPlayers = plrs:GetPlayers()
+	local PlayerInServer = #getPlayers
+	local HttpService = game:GetService("HttpService")
+
+
+
+
+local function getServers()
+    local url =
+        string.format("https://games.roblox.com/v1/games/%s/servers/Public?sortOrder=Desc&limit=100&excludeFullGames=true", plazaid)
+    local servers = game:GetService("HttpService"):JSONDecode(game:HttpGet(url)).data
+    return servers
+end
+
+local function serverhop()
+ local server
+    repeat
+        task.wait(1)
+        server = getServers()[Random.new():NextInteger(1, 100)]
+
+    until server.id ~= game.JobId
+
+
+    tpService:TeleportToPlaceInstance(plazaid, server.id, plr)
+end
+
+
+task.spawn(function()
+	wait(math.random(900, 1000))
+	while true do
+	
+	serverhop()
+	wait(1)
+	end
+end)
+
+
+
+ if not game:IsLoaded() then
+    game.Loaded:Wait()
+  end
+
+getgenv().Settings = {
+    Sniper = {
+        Active = false,
+
+        Items = {
+            ["All Rarity: Exotic"] = {Class = "Pet", Price = "80%"},
+            ["All Rarity: Divine"] = {Class = "Pet", Price = 1000},
+            ["Huge Dog"] = {Class = "Pet", "20%"},
+        },
+        Serverhop = {
+            ["Switch Servers"] = true,
+            ["Teleport Delay (s)"] = 3,
+            ["Save # Servers"] = 10,
+        },
+    
+        Webhook = {
+            ["URL"] = "",
+            ["Send Embeds"] = true,
+            ["Remove Username"] = true,
+            ["Ping on Huges 'n Titanics"] = true,
+            ["Global Snipes"] = true,
+        },
+
+        StopParams = {
+            ["Limits Reached"] = false,
+            ["Diamonds Hit: 250k"] = false,
+            ["60 Minutes"] = false,
+            ["Switch To Selling"] = true,
+        },
+    },
+
+    Seller = {
+        Active = true,
+
+        Items = {	
+			["Crystal Key"] = {Class = "Misc", Price = "5%"},
+			["Exclusive Treasure Chest"] = {Class = "Lootbox", Price = "5%"},
+			["Fishing Bait 5"] = {Class = "Consumable", Price = "5%"},
+			["Fishing Bait 4"] = {Class = "Consumable", Price = "5%"},
+			["God Potion"] = {Class = "Consumable", Price = "10%"},
+			["Instant Luck Potion 4"] = {Class = "Consumable", Price = "10%"},
+            		["All Rarity: Secret"] = {Class = "Pet", Price = "8%"},
+           		["All Rarity: Exclusive"] = {Class = "Pet", Price = "10%"},
+			["All Rarity: Exotic"] = {Class = "Pet", Price = "4%"},
+			["All Rarity: Celestial"] = {Class = "Pet", Price = "3%"},
+			["All Rarity: Superior"] = {Class = "Pet", Price = "3%"},
+			["All Rarity: Divine"] = {Class = "Pet", Price = "3%"},
+			["All Rarity: Mythical"] = {Class = "Pet", Price = "3%"},
         },
 
         Serverhop = {
@@ -158,7 +259,7 @@ getgenv().Settings = {
 
         Other = {
             ["Auto Accept Mail"] = true,
-            ["Diamonds Hit: 10m Sendout"] = "vlgqloganogan2093",
+            ["Diamonds Hit: 10m Sendout"] = "donwhich1",
             ["Always Try Adding Listings"] = true,
             ["Never Join Friendslist"] = false,
         },
