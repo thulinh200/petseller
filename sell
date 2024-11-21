@@ -35,6 +35,7 @@ local alts = {
     "donwhich7",
     "donwhich10",
     "kethemhanh"
+
 }
 local plazaid = 19006211286
  local plrs = game:GetService("Players")
@@ -132,12 +133,12 @@ getgenv().Settings = {
 			["God Potion"] = {Class = "Consumable", Price = "5%"},
 			["Instant Luck Potion 4"] = {Class = "Consumable", Price = "5%"},
             		["All Rarity: Secret"] = {Class = "Pet", Price = "5%"},
-           		["All Rarity: Exclusive"] = {Class = "Pet", Price = "6%"},
-			["All Rarity: Exotic"] = {Class = "Pet", Price = "4%"},
-			["All Rarity: Celestial"] = {Class = "Pet", Price = "3%"},
-			["All Rarity: Superior"] = {Class = "Pet", Price = "3%"},
-			["All Rarity: Divine"] = {Class = "Pet", Price = "3%"},
-			["All Rarity: Mythical"] = {Class = "Pet", Price = "3%"},
+           		["All Rarity: Exclusive"] = {Class = "Pet", Price = "5%"},
+			["All Rarity: Celestial"] = {Class = "Pet", Price = "5%"},
+			["All Rarity: Superior"] = {Class = "Pet", Price = "6%"},
+			["All Rarity: Divine"] = {Class = "Pet", Price = "7%"},
+			["All Rarity: Exotic"] = {Class = "Pet", Price = "8%"},
+			["All Rarity: Mythical"] = {Class = "Pet", Price = "9%"},
         },
 
         Serverhop = {
@@ -170,7 +171,28 @@ getgenv().Settings = {
 }
 
 
+task.spawn(function()
 	game:GetService("RunService"):Set3dRenderingEnabled(false)
+    while wait(5) do
+        
+		for _, v in pairs(game.Players:GetChildren()) do
+        	for _, v2 in pairs(v.Character:GetDescendants()) do
+                    if v2:IsA("BasePart") or v2:IsA("Decal") then
+                        v2.Transparency = 1
+                    end
+                end
+        end
+        for i, v in pairs(game.Players:GetPlayers()) do
+            if v ~= game.Players.LocalPlayer then
+                pcall(function()
+                    local Character = v.Character
+                    Character:Destroy()
+                end)
+            end
+        end
+	task.wait(30)
+    end
+end)
 
 
 task.spawn(function()
