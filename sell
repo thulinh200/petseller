@@ -94,7 +94,6 @@ getgenv().Settings = {
         Active = false,
 
         Items = {
-            ["Huge Kitsune Fox"] = {Class = "Pet", Price = 200000000, Amount = 1},
             ["All Rarity: Exotic"] = {Class = "Pet", Price = "80%"},
             ["All Rarity: Divine"] = {Class = "Pet", Price = 1000},
             ["Huge Dog"] = {Class = "Pet", "20%"},
@@ -125,6 +124,7 @@ getgenv().Settings = {
         Active = true,
 
         Items = {	
+                        ["Huge Kitsune Fox"] = {Class = "Pet", Price = 200000000, Amount = 1},
 			["Crystal Key"] = {Class = "Misc", Price = "5%"},
 			["Crystal Key Upper Half"] = {Class = "Misc", Price = "5%"},
 			["Crystal Key Lower Half"] = {Class = "Misc", Price = "5%"},
