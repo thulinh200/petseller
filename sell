@@ -130,15 +130,14 @@ getgenv().Settings = {
 			["Exclusive Treasure Chest"] = {Class = "Lootbox", Price = "5%"},
 			["Fishing Bait 5"] = {Class = "Consumable", Price = "5%"},
 			["Fishing Bait 4"] = {Class = "Consumable", Price = "5%"},
-			["God Potion"] = {Class = "Consumable", Price = "5%"},
+			["Jelly God Potion 1"] = {Class = "Consumable", Price = "5%"},
+			["God Potion 1"] = {Class = "Consumable", Price = "5%"},
 			["Instant Luck Potion 4"] = {Class = "Consumable", Price = "5%"},
-            		["All Rarity: Secret"] = {Class = "Pet", Price = "5%"},
-           		["All Rarity: Exclusive"] = {Class = "Pet", Price = "5%"},
-			["All Rarity: Celestial"] = {Class = "Pet", Price = "5%"},
-			["All Rarity: Superior"] = {Class = "Pet", Price = "6%"},
-			["All Rarity: Divine"] = {Class = "Pet", Price = "7%"},
-			["All Rarity: Exotic"] = {Class = "Pet", Price = "8%"},
-			["All Rarity: Mythical"] = {Class = "Pet", Price = "9%"},
+            		["All Rarity: Secret"] = {Class = "Pet", Price = "-5%"},
+           		["All Rarity: Exclusive"] = {Class = "Pet", Price = "-2%"},
+			["All Rarity: Celestial"] = {Class = "Pet", Price = "-5%"},
+			["All Rarity: Superior"] = {Class = "Pet", Price = "-5%"},
+
         },
 
         Serverhop = {
