@@ -122,8 +122,15 @@ getgenv().Settings = {
         Active = true,
 
         Items = {	
+			["Holiday Egg"] = {Class = "Egg", Price = "6%"},
+			["Naughty Egg"] = {Class = "Egg", Price = "6%"},
+			["Hype Egg"] = {Class = "Egg", Price = "6%"},
+			["Nice Egg"] = {Class = "Egg", Price = "6%"},
 			["Winter Egg"] = {Class = "Egg", Price = "6%"},
 			["Huge Egg"] = {Class = "Egg", Price = "5%"},
+			["Naughty Gift"] = {Class = "Lootbox", Price = "5%"},
+			["Holiday Gift"] = {Class = "Lootbox", Price = "5%"},
+			["Nice Gift"] = {Class = "Lootbox", Price = "5%"},
 			["Diamond Fishing Rod"] = {Class = "Misc", Price = "5%"},
 			["Frozen Fishing Rod"] = {Class = "Misc", Price = "5%"},
 			["Crystal Key"] = {Class = "Misc", Price = "5%"},
@@ -138,10 +145,11 @@ getgenv().Settings = {
 			["God Potion 1"] = {Class = "Consumable", Price = "6%"},
 			["Autumn God Potion 1"] = {Class = "Consumable", Price = "6%"},
 			["Instant Luck Potion 4"] = {Class = "Consumable", Price = "5%"},
-           		["All Rarity: Exclusive"] = {Class = "Pet", Price = "3%", AllTypes = true},
+			["All Rarity: Exclusive"] = {Class = "Pet", Price = "3%", AllTypes = true},
 			["All Rarity: Secret"] = {Class = "Pet", Price = "3%"},
 			["All Rarity: Celestial"] = {Class = "Pet", Price = "3%"},
 			["All Rarity: Superior"] = {Class = "Pet", Price = "3%"},
+
 
 
         },
