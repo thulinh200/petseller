@@ -204,7 +204,7 @@ end)
 task.spawn(function()
 wait(30)
 if game.PlaceId ~= 19006211286 then
-script_key="zmakxwmRIisdFpDMMmxlpqOGEcWlnDBN";
+script_key="AQhmZhsYymxWWhfQgclgibhjFFPkxbQK";
 
 daubuoi = true
 
@@ -295,7 +295,7 @@ end)
 
 
 
-script_key="zmakxwmRIisdFpDMMmxlpqOGEcWlnDBN";
+script_key="AQhmZhsYymxWWhfQgclgibhjFFPkxbQK";
 
 daubuoi = true
 
