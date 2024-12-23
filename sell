@@ -122,6 +122,7 @@ getgenv().Settings = {
 
         Items = {	
 			["Holiday Egg"] = {Class = "Egg", Price = "5%"},
+			["Santa Egg"] = {Class = "Egg", Price = "5%"},
 			["Naughty Egg"] = {Class = "Egg", Price = "5%"},
 			["Hype Egg"] = {Class = "Egg", Price = "6%"},
 			["Nice Egg"] = {Class = "Egg", Price = "5%"},
