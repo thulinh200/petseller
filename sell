@@ -144,13 +144,13 @@ getgenv().Settings = {
 			["Winter God Potion 1"] = {Class = "Consumable", Price = "6%"},
 			["Jelly God Potion 1"] = {Class = "Consumable", Price = "6%"},
 			["God Potion 1"] = {Class = "Consumable", Price = "6%"},
+                        ["Corrupted Huge Bait"] = {Class = "Consumable", Price = "3%"}
 			["Autumn God Potion 1"] = {Class = "Consumable", Price = "6%"},
 			["Instant Luck Potion 4"] = {Class = "Consumable", Price = "5%"},
 			["All Rarity: Exclusive"] = {Class = "Pet", Price = "3%", AllTypes = true},
 			["All Rarity: Secret"] = {Class = "Pet", Price = "3%"},
 			["All Rarity: Celestial"] = {Class = "Pet", Price = "3%"},
 			["All Rarity: Superior"] = {Class = "Pet", Price = "3%"},
-                        ["Corrupted Huge Bait"] = {Class = "Consumable", Price = "5%"}
 
 
 
