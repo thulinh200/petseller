@@ -135,6 +135,7 @@ getgenv().Settings = {
 			["Crystal Key Upper Half"] = {Class = "Misc", Price = "5%"},
 			["Crystal Key Lower Half"] = {Class = "Misc", Price = "5%"},
 			["Exclusive Treasure Chest"] = {Class = "Lootbox", Price = "5%"},
+                        ["Corrupted Huge Bait"] = {Class = "Consumable", Price = "5%"},
 			["Ice Fishing Scroll 1"] = {Class = "Consumable", Price = "5%"},
 			["Holiday Damage Scroll 1"] = {Class = "Consumable", Price = "5%"},
 			["Santa's Scroll 1"] = {Class = "Consumable", Price = "5%"},
