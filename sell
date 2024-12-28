@@ -137,6 +137,7 @@ getgenv().Settings = {
 			["Exclusive Treasure Chest"] = {Class = "Lootbox", Price = "5%"},
 			["Ice Fishing Scroll 1"] = {Class = "Consumable", Price = "5%"},
 			["Holiday Damage Scroll 1"] = {Class = "Consumable", Price = "5%"},
+            ["Corrupted Huge Bait"] = {Class = "Consumable", Price = "3%"}
 			["Santa's Scroll 1"] = {Class = "Consumable", Price = "5%"},
 			["Fishing Bait 5"] = {Class = "Consumable", Price = "5%"},
 			["Fishing Bait 4"] = {Class = "Consumable", Price = "5%"},
@@ -144,7 +145,6 @@ getgenv().Settings = {
 			["Winter God Potion 1"] = {Class = "Consumable", Price = "6%"},
 			["Jelly God Potion 1"] = {Class = "Consumable", Price = "6%"},
 			["God Potion 1"] = {Class = "Consumable", Price = "6%"},
-                        ["Corrupted Huge Bait"] = {Class = "Consumable", Price = "3%"}
 			["Autumn God Potion 1"] = {Class = "Consumable", Price = "6%"},
 			["Instant Luck Potion 4"] = {Class = "Consumable", Price = "5%"},
 			["All Rarity: Exclusive"] = {Class = "Pet", Price = "3%", AllTypes = true},
