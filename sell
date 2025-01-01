@@ -1,7 +1,6 @@
 local alts = {
     "RomanCross_1",
     "MaxwellCross_3",
-    "MasonSteel_1",
     "FinnHunter_1",
     "StriderVince_1",
     "EthanWolf_1",
@@ -10,7 +9,6 @@ local alts = {
     "RileyDark_1",
     "ZaneSteele_1",
     "DanteStorm_1",
-    "KaiRiker_1",
     "BlakeHawke_1",
     "ColeHunter_1",
     "LiamBlackwood_1",
@@ -29,7 +27,22 @@ local alts = {
     "ArcaneHunterr",
     "FrozenWraith_o",
     "ShadowDragoon_2",
-    "CrimsonPhoenix_top"
+    "CrimsonPhoenix_top",
+    "VortexNova03",
+    "RogueDragon25",
+    "VenomPhoenix0",
+    "CyberVanguard_vip",
+    "SoulEater_top",
+    "EchoViper1",
+    "VelvetStorm_bop",
+    "VioletEmber_99",
+    "StarryWhisper_99",
+    "AkiraHaru_1",
+    "YukiNaito_no1",
+    "YuutoIsamu1",
+    "RenjiAkuma_top",
+    "SoraKage8",
+    "HayatoRyu1u0"
 }
 local plazaid = 19006211286
  local plrs = game:GetService("Players")
