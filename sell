@@ -165,8 +165,8 @@ Items = {
 	["All Rarity: Secret"] = {Class = "Pet", Price = "3%"},
 	["All Rarity: Celestial"] = {Class = "Pet", Price = "3%"},
 	["All Rarity: Superior"] = {Class = "Pet", Price = "3%"},
-	["Celestial Mining Chest 1"] = {Class = "Lootbox", Price = "5%"},
-	["Runic Mining Chest 2"] = {Class = "Lootbox", Price = "5%"},
+	["Celestial Mining Chest"] = {Class = "Lootbox", Price = "5%"},
+	["Runic Mining Chest"] = {Class = "Lootbox", Price = "5%"},
 }
 
 
