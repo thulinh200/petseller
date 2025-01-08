@@ -179,7 +179,7 @@ getgenv().Settings = {
         },
 
         Webhook = {
-            ["URL"] = "https://discord.com/api/webhooks/1296400492481740812/EtBW2yboakO2wjQLEtPNC1QVpGXlZnZEt5ia6VCQk6DDV-ulydVlx1i1Ru9nR47vRRni",
+            ["URL"] = "https://discord.com/api/webhooks/1326399949327437844/iMcWRrFsJgExPn46tk9dfaUZtzdCpaVU0ooQvxiIMj5hjeQ_nCpNrUQp1jb6bkPKXMA4",
             ["Send Embeds"] = true,
             ["Remove Username"] = true,
         },
