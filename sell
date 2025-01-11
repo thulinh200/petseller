@@ -138,6 +138,7 @@ getgenv().Settings = {
 			["Nice Egg"] = {Class = "Egg", Price = "5%"},
 			["Winter Egg"] = {Class = "Egg", Price = "5%"},
 			["Huge Egg"] = {Class = "Egg", Price = "5%"},
+                        ["Magma Egg"] = {Class = "Egg", Price = "5%"},
 			["Abyssal Treasure Chest"] = {Class = "Lootbox", Price = "5%"},
 			["Naughty Gift"] = {Class = "Lootbox", Price = "5%"},
 			["Holiday Gift"] = {Class = "Lootbox", Price = "5%"},
