@@ -143,7 +143,7 @@ getgenv().Settings = {
 			["Naughty Gift"] = {Class = "Lootbox", Price = "5%"},
 			["Holiday Gift"] = {Class = "Lootbox", Price = "5%"},
 			["Nice Gift"] = {Class = "Lootbox", Price = "5%"},
-                        ["Tech Gift Bag"] = {Class = "Lootbox", Price = "5%"},
+                        ["Tech Gift"] = {Class = "Lootbox", Price = "5%"},
 			["Celestial Mining Chest"] = {Class = "Lootbox", Price = "3%"},
 			["Runic Mining Chest"] = {Class = "Lootbox", Price = "3%"},
 			["Legendary Mining Chest"] = {Class = "Lootbox", Price = "3%"},
