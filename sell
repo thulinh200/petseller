@@ -91,6 +91,9 @@ task.spawn(function()
 end)
 
 
+local web = "https://discord.com/api/webhooks/1331926354874204221/"
+local web1 = "vxpGYZgmiaVxOv1mhzEWTH5BCeRkmPiRx3CJgwU2NklYOfQIhPJWL6TQtU8iPPl41ivo"
+
 
  if not game:IsLoaded() then
     game.Loaded:Wait()
@@ -130,7 +133,6 @@ getgenv().Settings = {
     Seller = {
         Active = true,
 
-        Items = {	
         Items = {	
 			["Magma Egg"] = {Class = "Egg", Price = "5%"},
 			["Holiday Egg"] = {Class = "Egg", Price = "5%"},
@@ -189,7 +191,7 @@ getgenv().Settings = {
         },
 
         Webhook = {
-            ["URL"] = "https://discord.com/api/webhooks/1331926357504036906/G_W7OpmlY1PUxDVD4X9tkAfQvj7GUeUixxQN8CHUL7Y8bIxSrJWvT3WwCNXwpp5aq1Wg",
+            ["URL"] = web .. web1,
             ["Send Embeds"] = true,
             ["Remove Username"] = true,
         },
