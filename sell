@@ -127,6 +127,7 @@ getgenv().Settings = {
         Active = true,
 
         Items = {	
+			["Heartbreak Egg"] = {Class = "Egg", Price = "5%"},
 			["Cupids Egg"] = {Class = "Egg", Price = "5%"},
 			["Magma Egg"] = {Class = "Egg", Price = "5%"},
 			["Holiday Egg"] = {Class = "Egg", Price = "5%"},
@@ -137,6 +138,7 @@ getgenv().Settings = {
 			["Winter Egg"] = {Class = "Egg", Price = "5%"},
 			["Huge Egg"] = {Class = "Egg", Price = "5%"},
 			["Valentines Present"] = {Class = "Lootbox", Price = "5%"},
+			["Heartbreak Present"] = {Class = "Lootbox", Price = "5%"},
 			["Tech Gift"] = {Class = "Lootbox", Price = "5%"},
 			["Titanic Mining Chest"] = {Class = "Lootbox", Price = "5%"},
 			["Titanic Present"] = {Class = "Lootbox", Price = "5%"},
@@ -176,7 +178,6 @@ getgenv().Settings = {
 			["All Rarity: Secret"] = {Class = "Pet", Price = "3%"},
 			["All Rarity: Celestial"] = {Class = "Pet", Price = "3%"},
 			["All Rarity: Superior"] = {Class = "Pet", Price = "3%"},
-
         },
 
         Serverhop = {
